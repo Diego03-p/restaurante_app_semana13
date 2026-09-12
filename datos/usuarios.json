@@ -1,0 +1,12 @@
+[
+  {
+    "identificacion": "admin",
+    "nombre": "Administrador Principal",
+    "clave": "1234"
+  },
+  {
+    "identificacion": "diego",
+    "nombre": "Diego Venancio Pluas Arriaga",
+    "clave": "admin123"
+  }
+]

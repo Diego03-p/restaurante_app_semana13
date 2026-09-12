@@ -1,0 +1,20 @@
+[
+  {
+    "codigo": "P001",
+    "nombre": "Hamburguesa Especial",
+    "precio": 6.50,
+    "stock": 20
+  },
+  {
+    "codigo": "P002",
+    "nombre": "Papas Fritas",
+    "precio": 2.50,
+    "stock": 50
+  },
+  {
+    "codigo": "P003",
+    "nombre": "Gaseosa 500ml",
+    "precio": 1.50,
+    "stock": 40
+  }
+]
