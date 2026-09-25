@@ -1,28 +1,17 @@
-# Restaurante App - Semana 13 (Interfaz Gráfica de Usuario - Tkinter)
+# Restaurante App - Semana 15
 
-**Estudiante:** Diego Venancio Pluas Arriaga  
-**Asignatura:** Programación Orientada a Objetos  
+Aplicación de gestión de restaurante desarrollada en Python aplicando la arquitectura MVC, persistencia de datos en JSON e interfaz gráfica interactiva con Tkinter.
 
-## Propósito
-Esta versión representa la transición de la aplicación de consola hacia una Interfaz Gráfica de Usuario (GUI) utilizando **Tkinter**. Se establece una estructura modular limpia donde la interfaz no lee los datos directamente de archivos locales, sino que delega el acceso a la capa de servicios.
+## Novedades de la Semana 15
+- **Módulo de Ventas:** Integración del modelo `Venta` y almacenamiento en `datos/ventas.json`.
+- **Interfaz Gráfica (GUI):** Implementación de la pestaña de Ventas utilizando `ttk.Notebook`, `Combobox` y `Treeview`.
+- **Eventos y Callbacks:** Uso de la propiedad `command=` para el registro de ventas en tiempo real.
+- **Recursos Visuales:** Carpeta `assets/` agregada para la gestión de iconos e imágenes de la aplicación.
 
 ## Estructura del Proyecto
-```text
-restaurante_app/
-├── datos/
-│   ├── productos.json
-│   └── usuarios.json
-├── modelos/
-│   ├── __init__.py
-│   ├── producto.py
-│   └── usuario.py
-├── servicios/
-│   ├── __init__.py
-│   ├── archivo_servicio.py
-│   └── restaurante_servicio.py
-├── ui/
-│   ├── __init__.py
-│   ├── login_view.py
-│   └── main_view.py
-├── main.py
-└── README.md
+- `assets/`: Recursos visuales e iconos.
+- `datos/`: Archivos JSON (`productos.json`, `usuarios.json`, `ventas.json`).
+- `modelos/`: Clases de dominio (`Producto`, `Usuario`, `Venta`).
+- `servicios/`: Lógica de negocio y manejo de archivos.
+- `ui/`: Vistas de la interfaz gráfica (`login_view.py`, `main_view.py`).
+- `main.py`: Punto de entrada de la aplicación.
