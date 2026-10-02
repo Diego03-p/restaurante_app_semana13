@@ -1,4 +1,4 @@
-# Aplicación de Gestión de Restaurante - Semana 15
+# Aplicación de Gestión de Restaurante - Semana 16
 
 Este proyecto es una aplicación de escritorio desarrollada en **Python** utilizando **Tkinter / ttk** para la interfaz gráfica y **JSON** para el almacenamiento de datos.
 
@@ -8,7 +8,7 @@ Este proyecto es una aplicación de escritorio desarrollada en **Python** utiliz
   - Autenticación mediante credenciales almacenadas en `datos/usuarios.json`.
   - Atajo de teclado: Tecla `Enter` para iniciar sesión rápidamente.
 
-- **Gestión de Usuarios:**
+- **Gestión de Usuarios (CRUD):**
   - Consulta de usuarios en tabla dinámica (`ttk.Treeview`).
   - Formulario para **Registrar**, **Actualizar** y **Eliminar** usuarios.
   - Carga automática de datos en el formulario al seleccionar una fila (`<<TreeviewSelect>>`).
