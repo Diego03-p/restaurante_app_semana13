@@ -1,17 +1,29 @@
-# Restaurante App - Semana 15
+# Aplicación de Gestión de Restaurante - Semana 15
 
-Aplicación de gestión de restaurante desarrollada en Python aplicando la arquitectura MVC, persistencia de datos en JSON e interfaz gráfica interactiva con Tkinter.
+Este proyecto es una aplicación de escritorio desarrollada en **Python** utilizando **Tkinter / ttk** para la interfaz gráfica y **JSON** para el almacenamiento de datos.
 
-## Novedades de la Semana 15
-- **Módulo de Ventas:** Integración del modelo `Venta` y almacenamiento en `datos/ventas.json`.
-- **Interfaz Gráfica (GUI):** Implementación de la pestaña de Ventas utilizando `ttk.Notebook`, `Combobox` y `Treeview`.
-- **Eventos y Callbacks:** Uso de la propiedad `command=` para el registro de ventas en tiempo real.
-- **Recursos Visuales:** Carpeta `assets/` agregada para la gestión de iconos e imágenes de la aplicación.
+## 🚀 Características y Funcionalidades
 
-## Estructura del Proyecto
-- `assets/`: Recursos visuales e iconos.
-- `datos/`: Archivos JSON (`productos.json`, `usuarios.json`, `ventas.json`).
-- `modelos/`: Clases de dominio (`Producto`, `Usuario`, `Venta`).
-- `servicios/`: Lógica de negocio y manejo de archivos.
-- `ui/`: Vistas de la interfaz gráfica (`login_view.py`, `main_view.py`).
-- `main.py`: Punto de entrada de la aplicación.
+- **Inicio de Sesión (Login):**
+  - Autenticación mediante credenciales almacenadas en `datos/usuarios.json`.
+  - Atajo de teclado: Tecla `Enter` para iniciar sesión rápidamente.
+
+- **Gestión de Usuarios:**
+  - Consulta de usuarios en tabla dinámica (`ttk.Treeview`).
+  - Formulario para **Registrar**, **Actualizar** y **Eliminar** usuarios.
+  - Carga automática de datos en el formulario al seleccionar una fila (`<<TreeviewSelect>>`).
+  - Atajo de teclado: Tecla `Escape` para limpiar el formulario.
+
+- **Visualización de Productos y Registro de Ventas:**
+  - Listado de productos disponibles.
+  - Selección de producto y usuario mediante menús desplegables (`ttk.Combobox`).
+  - Cálculo automático del total de venta y persistencia en `datos/ventas.json`.
+
+## 🛠️ Requisitos e Instalación
+
+- Python 3.8 o superior.
+- Sin dependencias externas adicionales (utiliza la librería estándar `tkinter`).
+
+### Ejecución:
+```bash
+python main.py

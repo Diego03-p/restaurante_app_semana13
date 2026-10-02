@@ -2,11 +2,13 @@
   {
     "identificacion": "admin",
     "nombre": "Administrador Principal",
-    "clave": "1234"
+    "clave": "1234",
+    "rol": "Administrador"
   },
   {
     "identificacion": "diego",
     "nombre": "Diego Venancio Pluas Arriaga",
-    "clave": "admin123"
+    "clave": "admin123",
+    "rol": "Empleado"
   }
 ]
